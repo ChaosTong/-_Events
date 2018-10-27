@@ -110,12 +110,12 @@
                 // value: any valid CSS font-size value
                 // defaults: 1em
 
-                expandAllText: options ['expandAllText'] || '+ expand all',
+                expandAllText: options ['expandAllText'] || '+ 全部展开',
                 // sets the text of the expandAll selector after the timeline is fully collapsed
                 // value: string
                 // default: + expand all
 
-                collapseAllText: options['collapseAllText'] || '- collapse all'
+                collapseAllText: options['collapseAllText'] || '- 全部收起'
                 //sets the text of the expandAll selector after the timeline is fully expanded
                 // value: string
                 // default: - collapse all
