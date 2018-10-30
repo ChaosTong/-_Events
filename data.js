@@ -14,7 +14,7 @@ var data = {
           ],
           "imgs": [
             {
-              "url": "https://easyulife-1253741099.cossh.myqcloud.com/dys_events/19880324_01.jpg"
+              "url": "https://i.loli.net/2018/10/30/5bd84040a5654.jpg"
             }
           ]
         }
@@ -33,7 +33,7 @@ var data = {
           ],
           "imgs": [
             {
-              "url": "https://easyulife-1253741099.cossh.myqcloud.com/dys_events/19930603_01.jpg"
+              "url": "https://i.loli.net/2018/10/30/5bd84038b522d.jpg"
             }
           ]
         }
@@ -52,10 +52,10 @@ var data = {
           ],
           "imgs": [
             {
-              "url": "https://easyulife-1253741099.cossh.myqcloud.com/dys_events/20131124_01.jpg"
+              "url": "https://i.loli.net/2018/10/30/5bd84047509c7.jpg"
             },
             {
-              "url": "https://easyulife-1253741099.cossh.myqcloud.com/dys_events/20131124_02.jpg"
+              "url": "https://i.loli.net/2018/10/30/5bd8404aaa4cb.jpg"
             }
           ]
         }
@@ -89,7 +89,7 @@ var data = {
           ],
           "imgs": [
             {
-              "url": "https://easyulife-1253741099.cossh.myqcloud.com/dys_events/20150114_01.jpg"
+              "url": "https://i.loli.net/2018/10/30/5bd8404d9b422.jpg"
             }
           ]
         }
@@ -108,7 +108,7 @@ var data = {
           ],
           "imgs": [
             {
-              "url": "https://easyulife-1253741099.cossh.myqcloud.com/dys_events/20160421_01.jpg"
+              "url": "https://i.loli.net/2018/10/30/5bd8404aaa63b.jpg"
             }
           ]
         }
@@ -127,10 +127,10 @@ var data = {
           ],
           "imgs": [
             {
-              "url": "https://easyulife-1253741099.cossh.myqcloud.com/dys_events/20160703_01.jpg"
+              "url": "https://i.loli.net/2018/10/30/5bd8403e40288.jpg"
             },
             {
-              "url": "https://easyulife-1253741099.cossh.myqcloud.com/dys_events/20160703_02.jpg"
+              "url": "https://i.loli.net/2018/10/30/5bd8403f8b584.jpg"
             }
           ]
         }
@@ -149,7 +149,7 @@ var data = {
           ],
           "imgs": [
             {
-              "url": "https://easyulife-1253741099.cossh.myqcloud.com/dys_events/20160801_01.jpg"
+              "url": "https://i.loli.net/2018/10/30/5bd8403ee4543.jpg"
             }
           ]
         }
@@ -207,7 +207,7 @@ var data = {
           ],
           "imgs": [
             {
-              "url": "https://easyulife-1253741099.cossh.myqcloud.com/dys_events/20161026_01.jpg"
+              "url": "https://i.loli.net/2018/10/30/5bd840526e15a.jpg"
             }
           ]
         }
