@@ -456,10 +456,10 @@ var data = {
           ],
           "imgs": [
             {
-              "url": "https://easyulife-1253741099.cossh.myqcloud.com/dys_events/xsm1PCNgvS$$$20181009_01.gif"
+              "url": "https://i.loli.net/2018/10/30/5bd844c62363e.gif"
             },
             {
-              "url": "https://easyulife-1253741099.cossh.myqcloud.com/dys_events/BzEDrcnhTl$$$20181009_02.jpg"
+              "url": "https://i.loli.net/2018/10/30/5bd844c650d8e.jpg"
             }
           ],
           "link": [
@@ -491,7 +491,7 @@ var data = {
           ],
           "imgs": [
             {
-              "url": "https://easyulife-1253741099.cossh.myqcloud.com/dys_events/mUTiIRhE4Y$$$20181029_01.jpg"
+              "url": "https://i.loli.net/2018/10/30/5bd844c5c2506.jpg"
             }
           ],
           "link": [
