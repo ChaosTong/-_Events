@@ -1,5 +1,5 @@
 var data = {
-  "update": "2018-10-30 16:52",
+  "update": "2018-10-31 16:57",
   "events": [
     {
       "month": "1988.03",
@@ -496,7 +496,7 @@ var data = {
           ],
           "link": [
             {
-              "url": "https://www.bilibili.com/video/av34907421/?p=7",
+              "url": "https://www.bilibili.com/video/av34941325",
               "title": "B站录播 德云色便论带会"
             }
           ]
