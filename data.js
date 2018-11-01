@@ -464,7 +464,7 @@ var data = {
           ],
           "link": [
             {
-              "url": "https://www.bilibili.com/video/av34907421/?p=7",
+              "url": "https://www.bilibili.com/video/av33520345/?p=7",
               "title": "B站录播p7 55:34"
             }
           ]
