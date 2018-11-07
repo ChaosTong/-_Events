@@ -4,13 +4,13 @@
 [德云色·大事记·ChaosTong](https://deyunse.wang)
 
 ## 项目结构
-├── README.md
-├── css/
-├── img/
-├── js/
-├── data.js
-├── index.html
-└── test.html
+├── README.md  
+├── css/  
+├── img/  
+├── js/  
+├── data.js  
+├── index.html  
+└── test.html  
 
 ## 图片规范
 1. 上传至[SM.MS](https://sm.ms)
