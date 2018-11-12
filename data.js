@@ -1,5 +1,5 @@
 var data = {
-  "update": "2018-11-07 14:02",
+  "update": "2018-11-12 21:17",
   "events": [
     {
       "month": "1988.03",
@@ -533,6 +533,37 @@ var data = {
             {
               "url": "https://www.bilibili.com/video/av34941325",
               "title": "B站录播 德云色便论带会"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "month": "2018.11",
+      "items": [
+        {
+          "id": "20181112",
+          "title": "11.12 德云色第一届老总抽奖上头衔",
+          "content": [
+            {
+              "txt": "德云2018第一届 闪电超跑王 Darknessflame"
+            },
+            {
+              "txt": "李哥点评--又是富二代，又有狗运"
+            },
+            {
+              "txt": "德云2018第一届 黄金大炮王 Dysw 存粹的狗运"
+            },
+            {
+              "txt": "孙哥点评--看德云色中奖N次，单车变摩托"
+            }
+          ],
+          "imgs": [
+            {
+              "url": "https://i.loli.net/2018/11/12/5be97f80bbd24.jpeg"
+            },
+            {
+              "url": "https://i.loli.net/2018/11/12/5be97f2d2b3fe.jpeg"
             }
           ]
         }
