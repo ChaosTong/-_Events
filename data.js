@@ -1,5 +1,5 @@
 var data = {
-  "update": "2018-11-17 14:33",
+  "update": "2018-11-18 21:36",
   "events": [
     {
       "month": "2018.11",
@@ -27,6 +27,38 @@ var data = {
             },
             {
               "url": "https://i.loli.net/2018/11/12/5be97f2d2b3fe.jpeg"
+            }
+          ]
+        },
+        {
+          "id": "20181113",
+          "title": "11.13 第二届德云厨王争霸",
+          "content": [
+            {
+              "txt": "第二届德云厨王争霸"
+            },
+            {
+              "txt": "老总末日"
+            }
+          ],
+          "imgs": [
+            {
+              "url": "https://wx4.sinaimg.cn/mw690/00666l46gy1fx71iz2y3cj30qo0dcacj.jpg"
+            },
+            {
+              "url": "https://wx3.sinaimg.cn/mw690/00666l46gy1fx71izebbej30g4092q3z.jpg"
+            },
+            {
+              "url": "https://wx2.sinaimg.cn/mw690/00666l46gy1fx71iy8vscj30qo0ez77c.jpg"
+            },
+            {
+              "url": "https://wx2.sinaimg.cn/mw690/00666l46gy1fx71izr35tj30g40920tb.jpg"
+            },
+            {
+              "url": "https://wx4.sinaimg.cn/mw690/00666l46gy1fx71izvxn8j30eo08d3z7.jpg"
+            },
+            {
+              "url": "https://wx1.sinaimg.cn/mw690/00666l46gy1fx71j00zzuj30g4092gm1.jpg"
             }
           ]
         }
