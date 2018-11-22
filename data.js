@@ -72,7 +72,7 @@ var data = {
           ],
           "imgs": [
             {
-              "url": "https://i0.hdslb.com/bfs/album/bb433b722a58d2d44e505c3f7788ef82beb6540d.jpg"
+              "url": "https://i.loli.net/2018/11/22/5bf65ab23d560.jpg"
             }
           ]
         }
