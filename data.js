@@ -73,6 +73,9 @@ var data = {
           "imgs": [
             {
               "url": "https://i.loli.net/2018/11/22/5bf65ab23d560.jpg"
+            },
+            {
+              "url": "https://i.loli.net/2018/11/22/5bf65bf07088e.jpg"
             }
           ]
         }
