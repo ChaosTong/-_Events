@@ -9,9 +9,11 @@
 	<link rel="stylesheet" href="./css/timeliner-future.css" type="text/css" media="screen">
 	<link rel="stylesheet" href="./js/vendor/venobox/venobox.css" type="text/css" media="screen">
 	<script src="https://cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+	<link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-	<div class="container">
+		<canvas class="canvas"></canvas>
+	<div class="container hide">
 		<h1>德云色·大事记</h1>
 		<h2><span class="step1">ChaosTong</span> <span class="step2">上次更新时间</span> <span class="step3" id="update"></span></h2>
 
@@ -40,7 +42,7 @@
 
 	</div><!-- /.container -->
 
-	<div class="container">
+	<div class="container hide">
 
 		<footer id="app-footer">
 		  <div class="col">
@@ -96,12 +98,17 @@
 	<script type="text/javascript" src="./js/vendor/venobox/venobox.min.js"></script>
 	<script type="text/javascript" src="./js/timeliner.js"></script>
 	<script type="text/javascript" src="./data.js?v=20181124"></script>
+	<script src="./js/index.js"></script>
 	<script>
 		$(document).ready(function() {
 			$.timeliner({
 				timelineContainer:'#timeline',
 			});
 			$('.venobox').venobox();
+
+			setTimeout(() => {
+				$('.container').fadeIn(1000)
+			}, 3000);
 		});
 
 	</script>
