@@ -654,13 +654,13 @@ var data = {
 //   console.log(data)
 // }
 
-var desc = function(x,y)
-{
-  var x = x.month.split('.')
-  x = parseInt(`${x[0]}${x[1]}`)
-  var y = y.month.split('.')
-  y = parseInt(`${y[0]}${y[1]}`)
-  return (x < y) ? 1 : -1
-}
+// var desc = function(x,y)
+// {
+//   var x = x.month.split('.')
+//   x = parseInt(`${x[0]}${x[1]}`)
+//   var y = y.month.split('.')
+//   y = parseInt(`${y[0]}${y[1]}`)
+//   return (x < y) ? 1 : -1
+// }
 
-s(JSON.stringify(data.events.sort(desc)))
+// s(JSON.stringify(data.events.sort(desc)))
