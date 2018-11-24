@@ -1,0 +1,41 @@
+
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  min-height: 100vh;
+  padding: 0;
+  line-height: 1.5em;
+  background: -webkit-linear-gradient(top, rgb(36, 31, 2) 0%, rgb(128, 14, 24) 120%);
+  background: -moz-linear-gradient(top, rgb(36, 31, 2) 0%, rgb(128, 14, 24) 120%);
+  background: -o-linear-gradient(top, rgb(36, 31, 2) 0%, rgb(128, 14, 24) 120%);
+  background: -ms-linear-gradient(top, rgb(36, 31, 2) 0%, rgb(128, 14, 24) 120%);
+  background: linear-gradient(top, rgb(36, 31, 2) 0%, rgb(128, 14, 24) 120%);
+  background-attachment: fixed;
+}
+img:hover{
+  cursor: pointer;
+}
+#footer-nav a{
+  margin: 10px;
+  display:inline-block;
+  overflow:hidden;
+  width:64px;
+  height:64px;
+  border-radius: 50%
+}
+.container>h1{
+  margin: 40px 0 40px;
+}
+canvas{
+  pointer-events: none;
+  position: fixed;
+  top: 0;
+}
+.hide{
+  display: none;
+}
+.show{
+  display: block;
+}

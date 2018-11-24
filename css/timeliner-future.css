@@ -89,7 +89,7 @@ h2 {
   color: rgba(255, 255, 255, 0.6);
 }
 .lead {
-  color: rgba(255, 255, 255, 0.6);
+  color: rgba(255, 255, 255, 0.9);
 }
 a:hover,
 a:link,
@@ -220,7 +220,7 @@ a:visited {
   white-space: nowrap;
 }
 .timeline-series dt a {
-  color: rgba(255, 255, 255, 0.4);
+  color: rgba(255, 255, 255, 0.8);
   cursor: pointer;
 }
 .timeline-series dt a .closed {
