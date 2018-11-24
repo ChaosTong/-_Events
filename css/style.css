@@ -39,3 +39,6 @@ canvas{
 .show{
   display: block;
 }
+.test{
+  display: inline-block;
+}
