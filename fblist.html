@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>德云色·封禁记录·ChaosTong</title>
+  <meta http-equiv="keywords" content="笑笑,西卡,孙亚龙,李浩宇,DYS,deyunse,德云色,德云色贴吧,德云色大事件,德云色大事记,77777,7">
+  <meta name="description" content="德云色大事记是非盈利性德云色事件记录网站，记录德云色的梗和事件">
+  <!-- import CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/element-ui/lib/theme-chalk/index.css">
+</head>
+<body>
+  <!-- <div class="user-avator"><img src="https://i.loli.net/2018/10/30/5bd845a122a31.jpg"></div> -->
+  <div id="app" class="app">
+	<el-alert title="查询自己被封了多久 ChaosTong封禁的一定可查, 其他房管/主播/超管封禁 小概率不可查. 限制按日查询单日记录" type="success" :closable="false">
+  	</el-alert>
+  	<div class="block">
+    <span class="demonstration">选择日期</span>
+    <el-date-picker
+      v-model="select_date"
+      align="right"
+      type="date"
+      placeholder="选择日期"
+      :picker-options="pickerOptions1">
+    </el-date-picker>
+    <el-button :disabled="select_date==''" type="primary" icon="search" @click="search" :loading="loading">搜索</el-button>
+  	</div>
+
+  	<el-table :data="tableData" style="width: 100%">
+        <el-table-column prop="date" label="封禁时间" width="180">
+        </el-table-column>
+        <el-table-column prop="content" label="状态">
+        </el-table-column>
+    </el-table>
+
+  </div>
+</body>
+  <!-- import Vue before Element -->
+  <script src="https://unpkg.com/vue/dist/vue.js"></script>
+  <!-- import JavaScript -->
+  <script src="https://unpkg.com/element-ui/lib/index.js"></script>
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  <script>
+    new Vue({
+      el: '#app',
+      data: function() {
+        return { 
+        	visible: false,
+        	tableData: [],
+        	loading: false,
+        	select_date: "",
+        	pickerOptions1: {
+	          disabledDate(time) {
+	            return time.getTime() > Date.now();
+	          },
+	          shortcuts: [{
+	            text: '今天',
+	            onClick(picker) {
+	              picker.$emit('pick', new Date());
+	            }
+	          }, {
+	            text: '昨天',
+	            onClick(picker) {
+	              const date = new Date();
+	              date.setTime(date.getTime() - 3600 * 1000 * 24);
+	              picker.$emit('pick', date);
+	            }
+	          }, {
+	            text: '一周前',
+	            onClick(picker) {
+	              const date = new Date();
+	              date.setTime(date.getTime() - 3600 * 1000 * 24 * 7);
+	              picker.$emit('pick', date);
+	            }
+	          }]
+	        }
+        }
+      },
+      methods: {
+      	search() {
+      		var that = this
+      		axios.get('https://api.zh1b0.com/dys/v1/fblist', {
+                params: {
+                    start: this.select_date
+                }
+            }).then(function (res) {
+                that.loading = false
+                that.tableData = res.data.data;
+            }).catch(function (error) {
+                that.loading = false
+                console.log(error);
+            });
+      	}
+      }
+    })
+  </script>
+</html>
+
+
+<style scoped>
+    .app {
+    	margin-top: 20px;
+    	margin-left: 20px;
+    	margin-right: 20px;
+        margin-bottom: 20px;
+    }
+    .user-avator{
+        margin-left: 20px;
+    }
+    .user-avator img{
+        display: block;
+        width:40px;
+        height:40px;
+        border-radius: 50%;
+    }
+</style>
