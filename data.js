@@ -5,6 +5,27 @@ var data = {
       "month": "2018.12",
       "items": [
         {
+          "id": "20181231",
+          "title": "12.31 DYS跨年夜",
+          "content": [
+            {
+              "txt": "DYS一年总结，集体合影"
+            }
+
+          ],
+          "imgs": [
+            {
+              "url": "https://i.loli.net/2018/12/04/5c0643e36130f.png"
+            }
+
+          ]
+        }
+      ]
+    },
+    {
+      "month": "2018.12",
+      "items": [
+        {
           "id": "20181203",
           "title": "12.03 DYS第一届雀圣大赛",
           "content": [
