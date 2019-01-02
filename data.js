@@ -1,27 +1,6 @@
 var data = {
-  "update": "2018-12-04 17:08",
+  "update": "2019-01-04 16:12",
   "events": [
-    {
-      "month": "2018.12",
-      "items": [
-        {
-          "id": "20181231",
-          "title": "12.31 DYS跨年夜",
-          "content": [
-            {
-              "txt": "DYS一年总结，集体合影"
-            }
-
-          ],
-          "imgs": [
-            {
-                  "url": "https://i.loli.net/2019/01/02/5c2c6c34e9aaa.jpg"
-              }
-
-          ]
-        }
-      ]
-    },
     {
       "month": "2018.12",
       "items": [
@@ -45,6 +24,20 @@ var data = {
             },
             {
               "url": "https://i.loli.net/2018/12/04/5c06450a6d2ff.jpg"
+            }
+          ]
+        },
+        {
+          "id": "20181231",
+          "title": "12.31 DYS2018跨年夜",
+          "content": [
+            {
+              "txt": "DYS一年总结，集体合影"
+            }
+          ],
+          "imgs": [
+            {
+              "url": "https://i.loli.net/2019/01/02/5c2c6c34e9aaa.jpg"
             }
           ]
         }
