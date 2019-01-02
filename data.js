@@ -14,9 +14,9 @@ var data = {
 
           ],
           "imgs": [
-            // {
-            //       "url": "https://i.loli.net/2018/12/04/5c0643e36130f.png"
-            //   }
+            {
+                  "url": "https://i.loli.net/2019/01/02/5c2c6c34e9aaa.jpg"
+              }
 
           ]
         }
