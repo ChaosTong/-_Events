@@ -51,6 +51,12 @@ var data = {
                   {
                       "url": "https://wx1.sinaimg.cn/mw690/00666l46ly1fzc96j4hy2j30p00ciacn.jpg"
                   }
+              ],
+              "link": [
+                {
+                  "title": "德云色第一届摔跤大赛：Kid大战西卡",
+                  "url": "http://video.duowan.com/play/9006463.html"
+                }
               ]
           }
         ]
