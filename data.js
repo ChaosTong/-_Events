@@ -2,7 +2,6 @@ var data = {
   "update": "2019-03-17 13:14",
   "events": [
     {
-
       "month": "2019.03",
       "items": [
         {
